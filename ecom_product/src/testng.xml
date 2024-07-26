@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-commerce Test Suite">
+    <test name="E-commerce Tests">
+        <classes>
+            <class name="com.ecommerce.com.tests.signUpTest"/>
+            <class name="com.ecommerce.com.tests.LoginTest"/>
+            <class name="com.ecommerce.com.tests.productBrowsingTest"/>
+            <class name="com.ecommerce.com.tests.AddToCartTest"/>
+            <class name="com.ecommerce.com.tests.CheckoutTest"/>
+            <class name="com.ecommerce.com.tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
